@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHI's TO_DO APP</title>
+    <link rel="stylesheet" href="todo.css" />
+
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text">Create a To-Do list</h1>
+
+      <form>
+        <input
+          autofocus
+          type="text"
+          id="todo-input"
+          placeholder="add a todo list"
+        />
+        <input type="submit" value="add" class="todo-btn" />
+      </form>
+
+      <div class="todoContainer">
+        <p>Todo lists appear here</p>
+        <ul class="todo-list"></ul>
+      </div>
+    </div>
+
+    <script src="todoapp.js"></script>
+  </body>
+</html>
